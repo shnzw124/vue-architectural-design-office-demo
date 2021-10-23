@@ -4,7 +4,7 @@
       <h2 class="contact__title">Contact</h2><!-- /.contact__title -->
       <p class="contact__text">お気軽にご相談ください。</p><!-- /.contact__text -->
       <div class="contact__btn">
-        <Button text="Contact" url=""></Button>
+        <Button text="Contact" url="./contact"></Button>
       </div><!-- /.contact__btn -->    
       <div class="contact__background-text">Contact us</div><!-- /.contact__background-text -->
     </div><!-- /.contact__inner -->
