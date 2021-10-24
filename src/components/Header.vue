@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="header__inner">
-      <div class="header__logo">Cresta Design</div><!-- /.header__logo -->
+      <div class="header__logo"><a href="/" class="header__link">Cresta Design</a></div><!-- /.header__logo -->
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
@@ -32,7 +32,8 @@ export default {
 <style scoped>
   .header {
     font-style: italic;
-    /* position: fixed; */
+    position: fixed;
+    width: 100%;
   }
 
   .header__inner {
