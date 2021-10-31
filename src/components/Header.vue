@@ -37,6 +37,8 @@ export default {
     font-style: italic;
     position: fixed;
     width: 100%;
+    background-color: #282F35;
+    z-index: 10;
   }
 
   .header__inner {
