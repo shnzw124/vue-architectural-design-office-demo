@@ -18,12 +18,15 @@
           </li><!-- /.header__item -->
         </ul><!-- /.header__list -->
       </nav><!-- /.header__nav -->
+      <Burger/>
     </div><!-- /.header__inner -->
   </header>
 </template>
 
 <script>
+import Burger from './Burger.vue'
 export default {
+  components: { Burger },
   name: 'Header'
 }
 </script>
