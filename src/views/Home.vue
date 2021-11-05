@@ -3,7 +3,7 @@
     <FirstView/>
     <Concept/>
     <Works/>
-    <!-- <Service/> -->
+    <Service/>
     <Contact/>
   </div>
 </template>
@@ -12,7 +12,7 @@
 import FirstView from '../components/FirstView.vue' 
 import Concept from '../components/Concept.vue' 
 import Works from '../components/Works.vue' 
-// import Service from '../components/Service.vue' 
+import Service from '../components/Service.vue' 
 import Contact from '../components/Contact.vue' 
 
 export default {
@@ -21,7 +21,7 @@ export default {
     FirstView,
     Concept,
     Works,
-    // Service,
+    Service,
     Contact
   }
 }

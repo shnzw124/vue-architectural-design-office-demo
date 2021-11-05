@@ -1,26 +1,28 @@
 <template>
   <section class="service" id="service">
-    <div class="service__inner">
+    <div class="service__upper-inner">
       <h2 class="service__title">Service</h2><!-- /.service__title -->
-      <div class="service__jumbotrons">
-        <Jumbotron 
-          text="Hearing"
-          fileName="service-img01@2x.jpg"
-          alt="ヒアリング">
-        </Jumbotron>
-        <Jumbotron
-          text="Planning"
-          fileName="service-img02@2x.jpg"
-          alt="プランニング">
-        </Jumbotron>
-        <Jumbotron
-          text="Direction"
-          fileName="service-img03@2x.jpg"
-          alt="ディレクション">
-        </Jumbotron>
-      </div><!-- /.service__jumbotrons -->
+    </div><!-- /.service__upper-inner -->
+    <div class="service__jumbotrons">
+      <Jumbotron 
+        class="service__jumbotron"
+        text="Hearing"
+        fileName="service-img01@2x.jpg">
+      </Jumbotron>
+      <Jumbotron
+        class="service__jumbotron"
+        text="Planning"
+        fileName="service-img02@2x.jpg">
+      </Jumbotron>
+      <Jumbotron
+        class="service__jumbotron"
+        text="Direction"
+        fileName="service-img03@2x.jpg">
+      </Jumbotron>
+    </div><!-- /.service__jumbotrons -->
+    <div class="service__lower-inner">
       <div class="service__background-text">Our service</div><!-- /.service__background-text -->
-    </div><!-- /.service__inner -->
+    </div><!-- /.service__lower-inner -->
   </section><!-- /.service -->
 </template>
 
@@ -41,8 +43,13 @@ export default {
 
   }
 
-  .service__inner {
+  .service__upper-inner {
     padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .service__lower-inner {
+    padding-top: 70px;
     padding-bottom: 70px;
   }
 
@@ -52,7 +59,7 @@ export default {
     font-weight: bold;
     font-style: italic;
     text-align: left;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     padding-left: 120px;
   }
 
@@ -68,10 +75,14 @@ export default {
   }
 
   .service__jumbotrons {
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .service__jumbotron {
+    width: 33.33333%;
   }
 
   .service__background-text {
