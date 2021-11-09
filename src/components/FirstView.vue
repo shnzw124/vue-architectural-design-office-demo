@@ -70,19 +70,22 @@ export default {
   }
 
   .fv__title {
-    text-align: left;
+    text-align: center;
     font-size: 4.375rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 31px;
+    line-height: 0.71429;
+    letter-spacing: 0.05em;
   }
 
   .fv__sub-title {
-    text-align: left;
+    text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    font-style: italic;
     color: #fff;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
   }
 
   .sp-only {

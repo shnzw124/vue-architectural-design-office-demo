@@ -63,6 +63,8 @@ export default {
     text-align: right;
     margin-bottom: 80px;
     transform: translateX(-230px);
+    line-height: 0.8;
+    letter-spacing: 0.1em;
   }
 
   .works__title::after {
@@ -84,12 +86,6 @@ export default {
     gap: 20px;
   }
 
-  .works__card {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .works__btn {
     margin-bottom: 70px;
   }
@@ -99,12 +95,20 @@ export default {
     font-weight: bold;
     color: rgba(255,255,255,.05);
     text-align: left;
+    line-height: 1.66667;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 1080px) {
 
     .works__cards {
       flex-direction: column;
+    }
+
+    .works__card {
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
     }
     
   }

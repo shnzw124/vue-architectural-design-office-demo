@@ -3,7 +3,7 @@
     <SubFirstView 
       class="contact__sbfv"
       title="Contact"
-      backgroundText="Contact Us">
+      backgroundText="Contact us">
     </SubFirstView>
     <Form class="contact__form"></Form>
     <Button 

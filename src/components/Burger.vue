@@ -94,7 +94,6 @@ export default {
   }
 
   .burger__wrapper {
-    /* display: none; */
     height: 100vh;
     left: 0;
     position: fixed;
@@ -123,6 +122,13 @@ export default {
   .burger__menu .burger__item {
     margin-bottom: 40px;
     margin-right: 0;
+  }
+
+  .burger__item {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.375;
+    letter-spacing: 0.05em;
   }
 
   .burger__link {

@@ -68,8 +68,10 @@ export default {
     margin-bottom: 0;
   }
 
-  .form__document-label, .form__counselling-label, .form__document-label {
+  .form__document-label, .form__counselling-label, .form__application-label {
     margin-right: 20px;
+    line-height: 1.1875;
+    letter-spacing: 0.05em;
   }
 
   .form__document-checkbox, .form__counselling-checkbox, .form__application-checkbox {
@@ -102,6 +104,8 @@ export default {
 
   .form__topic-label, .form__name-label, .form__tel-label, .form__email-label, .form__other-label {
     font-weight: bold;
+    line-height: 1.875;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 414px) {

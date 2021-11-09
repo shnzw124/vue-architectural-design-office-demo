@@ -28,8 +28,7 @@ export default {
   }
 
   .sbfv__inner {
-    padding-top: 186px;
-    padding-bottom: 185px;
+    padding: 186px 48px 40px;
     position: relative;
   }
 
@@ -39,6 +38,8 @@ export default {
     font-weight: bold;
     color: #fff;
     font-style: italic;
+    line-height: 0.8;
+    letter-spacing: 0.1em;
   }
 
   .sbfv__background-text {
@@ -46,6 +47,8 @@ export default {
     font-weight: bold;
     color: rgba(255,255,255,.05);
     text-align: left;
+    line-height: 1.66667;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 414px) {

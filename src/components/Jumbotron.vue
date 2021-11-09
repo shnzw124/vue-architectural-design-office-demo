@@ -40,6 +40,8 @@ export default {
     font-weight: bold;
     font-style: italic;
     color: #fff;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 1024px) {

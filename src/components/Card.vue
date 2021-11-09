@@ -58,6 +58,8 @@ export default {
   .card__text {
     color: #141414;
     text-align: left;
+    /* line-height: 1.875; */
+    /* letter-spacing: 0.05em; */
   }
 
   @media screen and (max-width: 1080px) {

@@ -28,6 +28,8 @@ export default {
     text-decoration: none;
     transition: .25s;
     border-radius: 50px;
+    line-height: 1.875;
+    letter-spacing: 0.05em;
   }
 
   .btn:focus, .btn:hover {

@@ -50,7 +50,8 @@ export default {
   .header__logo {
     font-size: 1.625rem;
     font-weight: bold;
-    line-height: 2.25rem;
+    line-height: 1.38462;
+    letter-spacing: 0.05em;
   }
 
   .header__nav {
@@ -66,7 +67,8 @@ export default {
   .header__item {
     margin-right: 30px;
     font-weight: bold;
-    line-height: 1.375rem;
+    line-height: 1.375;
+    letter-spacing: 0.05em;
   }
 
   .header__item:last-child {

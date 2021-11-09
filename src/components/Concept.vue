@@ -40,6 +40,8 @@ export default {
     font-style: italic;
     text-align: left;
     margin-bottom: 70px;
+    line-height: 0.8;
+    letter-spacing: 0.05em;
   }
 
   .concept__title::after {
@@ -58,6 +60,8 @@ export default {
     font-weight: bold;
     text-align: center;
     margin-bottom: 60px;
+    line-height: 1.66667;
+    letter-spacing: 0.05em;
   }
 
   .concept__container {
@@ -72,6 +76,8 @@ export default {
     font-weight: bold;
     text-align: left;
     width: 44%;
+    line-height: 1.875;
+    letter-spacing: 0.05em;
   }
 
   .concept__img {
@@ -83,6 +89,8 @@ export default {
     font-weight: bold;
     color: rgba(23,23,23,.05);
     text-align: right;
+    line-height: 1.66667;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 1080px) {

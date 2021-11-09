@@ -28,5 +28,7 @@ export default {
     font-size: 14px;
     font-weight: bold;
     color: #282F35;
+    line-height: 2.14286;
+    letter-spacing: 0.05em;
   }
 </style>

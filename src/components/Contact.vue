@@ -42,6 +42,8 @@ export default {
     text-align: right;
     margin-bottom: 80px;
     transform: translateX(-230px);
+    line-height: 0.8;
+    letter-spacing: 0.1em;
   }
 
   .contact__title::after {
@@ -60,6 +62,8 @@ export default {
     font-weight: bold;
     color: #fff;
     margin-bottom: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
   }
 
   .contact__btn {
@@ -71,6 +75,8 @@ export default {
     font-weight: bold;
     color: rgba(255,255,255,.05);
     text-align: left;
+    line-height: 1.66667;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 414px) {
