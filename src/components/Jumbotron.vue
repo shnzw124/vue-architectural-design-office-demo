@@ -22,7 +22,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Jumbotron {
     width: 100%;
     height: 20vw;
@@ -42,13 +42,13 @@ export default {
     line-height: 1.25;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 1024px) {    
+  @media screen and (max-width: $tb) {    
     .Jumbotron {
       width: 100%;
       height: 50vw;
     }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Jumbotron {
       width: 100%;
       height: 70vw;

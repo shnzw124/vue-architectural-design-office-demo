@@ -44,7 +44,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Works {
     background-image: url("../assets/img/works-bgi@2x.jpg");
     background-size: cover;
@@ -92,7 +92,7 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: $tb) {
     .Works_Cards {
       flex-direction: column;
     }
@@ -102,7 +102,7 @@ export default {
       margin-left: auto;
     }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Works_Inner {
       padding: 100px 15px 40px;
     }

@@ -18,7 +18,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Sbfv {
     /* 背景画像もpropsで埋め込みたい */
     background-image: url("../assets/img/contact-page-bgi@2x.jpg");
@@ -47,7 +47,7 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Sbfv {
       height: 360px;
     }

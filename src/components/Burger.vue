@@ -37,7 +37,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Burger {
     display: none;
   }
@@ -129,7 +129,7 @@ export default {
   .Burger_Menu-leave, .Burger_Menu-enter-to{
     opacity: 1;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Burger {
       display: block;
     }

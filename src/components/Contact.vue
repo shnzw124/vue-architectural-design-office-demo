@@ -23,7 +23,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Contact {
     background-image: url("../assets/img/contact-bgi@2x.jpg");
     background-size: cover;
@@ -72,7 +72,7 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Contact_Inner {
       padding: 100px 15px 40px;
     }

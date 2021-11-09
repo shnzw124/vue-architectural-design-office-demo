@@ -30,7 +30,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Card {
     background-color: #fff;
     box-shadow: 0 0 6px #000;
@@ -57,7 +57,7 @@ export default {
     line-height: 1.875;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: $tb) {
     .Card {
       max-width: 100%;
     }

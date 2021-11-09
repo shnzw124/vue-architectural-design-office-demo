@@ -53,7 +53,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Form_Inner {
     max-width: 700px;
     margin-right: auto;
@@ -94,7 +94,7 @@ export default {
     line-height: 1.875;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Form_Inner {
       max-width: 90%;
     }

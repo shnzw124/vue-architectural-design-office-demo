@@ -32,7 +32,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Header {
     font-style: italic;
     position: fixed;
@@ -68,7 +68,7 @@ export default {
   .Header_Item:last-child {
     margin-right: 0;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Header_Inner {
       padding: 19px 15px;
     }

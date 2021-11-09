@@ -33,7 +33,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Fv {
     position: relative;
     height: 752px;
@@ -83,7 +83,7 @@ export default {
   ._sp-only {
     display: none;
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Fv {
       height: 599px;
     }

@@ -24,7 +24,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Concept_Inner {
     padding: 100px 120px 70px 220px;
   }
@@ -81,7 +81,7 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 1080px) {
+  @media screen and (max-width: $tb) {
     .Concept_Inner {
       padding: 100px 120px 70px;
     }
@@ -97,7 +97,7 @@ export default {
       width: 100%;
     }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Concept_Inner {
       padding: 100px 15px 40px;
     }

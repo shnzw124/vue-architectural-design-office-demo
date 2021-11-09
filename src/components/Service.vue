@@ -38,7 +38,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   .Service_UpperInner {
     padding: 100px 120px 0;
   }
@@ -82,7 +82,7 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: $tb) {
     .Service_Jumbotrons {
       flex-direction: column;
       margin-bottom: 40px;
@@ -97,7 +97,7 @@ export default {
       margin-bottom: 0;
     }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: $sp) {
     .Service_UpperInner {
       padding: 100px 15px 0;
     }
