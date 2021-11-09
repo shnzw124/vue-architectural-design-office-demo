@@ -1,8 +1,15 @@
 <template>
   <div class="contact">
-    <SubFirstView title="Contact" backgroundText="Contact Us"></SubFirstView>
-    <Form/>
-    <Button text="Submit"></Button>
+    <SubFirstView 
+      class="contact__sbfv"
+      title="Contact"
+      backgroundText="Contact Us">
+    </SubFirstView>
+    <Form class="contact__form"></Form>
+    <Button 
+      class="contact__btn"
+      text="Submit">
+    </Button>
   </div>
 </template>
 
@@ -22,15 +29,15 @@ export default {
 </script>
 
 <style>
-  .sbfv {
+  .contact__sbfv {
     margin-bottom: 100px;
   }
 
-  .form {
+  .contact__form {
     margin-bottom: 80px;
   }
 
-  .btn {
+  .contact__btn {
     margin-bottom: 80px;
   }
 </style>

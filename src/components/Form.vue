@@ -5,14 +5,20 @@
         <label class="form__topic-label">お問い合わせ内容</label>
 
         <div class="form__topic-checkbox">
-          <input class="form__document-checkbox" type="checkbox" id="document" name="document">
-          <label class="form__document-label" for="document">資料請求</label>
+          <div class="form__document-area">
+            <input class="form__document-checkbox" type="checkbox" id="document" name="document">
+            <label class="form__document-label" for="document">資料請求</label>
+          </div><!-- /.form__document-area -->
 
-          <input class="form__counselling-checkbox" type="checkbox" id="counselling" name="counselling">
-          <label class="form__counselling-label" for="counselling">お電話でのご相談を希望</label>
+          <div class="form__counselling-area">
+            <input class="form__counselling-checkbox" type="checkbox" id="counselling" name="counselling">
+            <label class="form__counselling-label" for="counselling">お電話でのご相談を希望</label>
+          </div><!-- /.form__counselling-area -->
 
-          <input class="form__applicationß-checkbox" type="checkbox" id="application" name="application">
-          <label class="form__application-label" for="application">申し込み</label>
+          <div class="form__application-area">
+            <input class="form__application-checkbox" type="checkbox" id="application" name="application">
+            <label class="form__application-label" for="application">申し込み</label>
+          </div><!-- /.form__application-area -->
         </div>
       </div><!-- /.form__topic-area -->
 
@@ -66,7 +72,7 @@ export default {
     margin-right: 20px;
   }
 
-  .form__document-checkbox, .form__counselling-checkbox, .form__applicationß-checkbox {
+  .form__document-checkbox, .form__counselling-checkbox, .form__application-checkbox {
     margin-right: 10px;
   }
 
@@ -90,6 +96,10 @@ export default {
     height: 10.6875rem;
   }
 
+  .form__topic-checkbox {
+    display: flex;
+  }
+
   .form__topic-label, .form__name-label, .form__tel-label, .form__email-label, .form__other-label {
     font-weight: bold;
   }
@@ -101,7 +111,11 @@ export default {
     }
 
     .form__inner {
-      
+      max-width: 90%;
+    }
+
+    .form__topic-checkbox {
+      flex-direction: column;
     }
 
   }

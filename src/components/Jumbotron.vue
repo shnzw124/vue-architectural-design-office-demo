@@ -41,5 +41,31 @@ export default {
     font-style: italic;
     color: #fff;
   }
+
+  @media screen and (max-width: 1024px) {
+    
+    .jumbotron {
+      width: 100%;
+      height: 50vw;
+    }
+
+  }
+
+  @media screen and (max-width: 414px) {
+    
+    .jumbotron {
+      width: 100%;
+      height: 70vw;
+      max-height: 250px;
+    }
+
+    .jumbotron__title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      font-style: italic;
+      color: #fff;
+    }
+
+  }
   
 </style>

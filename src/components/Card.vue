@@ -19,10 +19,10 @@ export default {
   },
   data (){
     return {
-      // imageSrc: require("../assets/card-img02@2x.jpg") OK
-      // imageSrc: require(`${this.src}`) NG
-      // imageSrc: require(this.src) NG
-      // imageSrc: this.src NG
+      // OK: src: require("../assets/card-img02@2x.jpg") 
+      // NG: src: require(`${this.fileName}`) 
+      // NG: src: require(this.fileName) 
+      // NG: src: this.fileName 
       src: require(`../assets/${this.fileName}`)
     }
   }

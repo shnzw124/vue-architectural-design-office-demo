@@ -41,8 +41,8 @@ export default {
   
   .fv__background {
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
+    top: 0;
+    left: 0;
     background-size: cover;
     background-position: top center;
     height: 752px;
@@ -64,12 +64,9 @@ export default {
 
   .fv__inner {
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
+    top: 409px;
+    left: 120px;
     background: transparent;
-    padding-top: 409px;
-    padding-bottom: 177px;
-    padding-left: 120px;
   }
 
   .fv__title {
@@ -98,10 +95,15 @@ export default {
       height: 599px;
     }
 
+    .fv__background {
+      height: 599px;
+    }
+
     .fv__inner {
-      padding-top: 202px;
-      padding-bottom: 207px;
-      padding-left: 15px;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
     .fv__title {

@@ -46,31 +46,28 @@ export default {
     font-weight: bold;
     color: rgba(255,255,255,.05);
     text-align: left;
-    position: absolute;
-    top: 283px;
-    left: 48px;
   }
 
   @media screen and (max-width: 414px) {
 
     .sbfv {
-      height: 599px;
+      height: 360px;
     }
 
     .sbfv__inner {
-      padding-top: 202px;
-      padding-bottom: 207px;
+      padding-top: 175px;
+      padding-bottom: 40px;
       padding-left: 15px;
     }
 
     .sbfv__title {
       text-align: center;
-      font-size: 2.3125rem;
-      margin-bottom: 59px;
+      font-size: 1.875rem;
+      margin-bottom: 40px;
     }
 
     .sbfv__background-text {
-
+      font-size: 2.5rem;
     }
 
   }

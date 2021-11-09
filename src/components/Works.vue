@@ -4,16 +4,19 @@
       <h2 class="works__title">Works</h2><!-- /.works__title -->
       <div class="works__cards">
         <Card 
+          class="works__card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。" 
           fileName="card-img01@2x.jpg"
           alt="オフィスの風景">
         </Card>
         <Card 
+          class="works__card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にした。"
           fileName="card-img02@2x.jpg"
           alt="会議室の風景">
         </Card>
         <Card 
+          class="works__card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。"
           fileName="card-img03@2x.jpg"
           alt="休憩室の風景">
@@ -79,6 +82,12 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  }
+
+  .works__card {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .works__btn {
