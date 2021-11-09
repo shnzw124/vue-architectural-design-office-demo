@@ -25,7 +25,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .Contact {
-    background-image: url("../assets/contact-bgi@2x.jpg");
+    background-image: url("../assets/img/contact-bgi@2x.jpg");
     background-size: cover;
   }
   .Contact_Inner {

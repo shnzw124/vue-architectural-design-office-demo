@@ -21,7 +21,7 @@ export default {
 <style scoped>
   .Sbfv {
     /* 背景画像もpropsで埋め込みたい */
-    background-image: url("../assets/contact-page-bgi@2x.jpg");
+    background-image: url("../assets/img/contact-page-bgi@2x.jpg");
     background-size: cover;
     background-position: top center;
     height: 453px;

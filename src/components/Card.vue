@@ -23,7 +23,7 @@ export default {
       // NG: src: require(`${this.fileName}`) 
       // NG: src: require(this.fileName) 
       // NG: src: this.fileName 
-      src: require(`../assets/${this.fileName}`)
+      src: require(`../assets/img/${this.fileName}`)
     }
   }
 }

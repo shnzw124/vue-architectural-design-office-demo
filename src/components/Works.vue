@@ -46,7 +46,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .Works {
-    background-image: url("../assets/works-bgi@2x.jpg");
+    background-image: url("../assets/img/works-bgi@2x.jpg");
     background-size: cover;
   }
   .Works_Inner {

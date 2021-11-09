@@ -10,7 +10,7 @@
         <p class="Concept_Text">
           私たちは、オフィスに特化した空間デザイン専門としております。その理由は、「働きたくなる空間で仕事ができれば多くの人を幸せにできるのではないか」と考えるためです。そんな想いの株式会社Cresta Designだからこそできる空間デザインを提供させていただきます。  
         </p><!-- /.Concept_Text -->
-        <img src="../assets/concept-image@2x.jpg" alt="" class="Concept_Img">
+        <img src="../assets/img/concept-image@2x.jpg" alt="" class="Concept_Img">
       </div><!-- /.Concept_content -->
       <div class="Concept_BackgroundText">Our Concept</div><!-- /.Concept_BackgroundText -->
     </div><!-- /.Concept_Inner -->

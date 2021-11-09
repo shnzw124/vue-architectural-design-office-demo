@@ -49,13 +49,13 @@ export default {
     z-index: -1;
   }
   .Fv_BackgroundImg01 {
-    background-image: url("../assets/fv-bgi_01@2x.jpg");
+    background-image: url("../assets/img/fv-bgi_01@2x.jpg");
   }
   .Fv_BackgroundImg02 {
-    background-image: url("../assets/fv-bgi_02@2x.jpg");
+    background-image: url("../assets/img/fv-bgi_02@2x.jpg");
   }
   .Fv_BackgroundImg03 {
-    background-image: url("../assets/fv-bgi_03@2x.jpg");
+    background-image: url("../assets/img/fv-bgi_03@2x.jpg");
   }
   .Fv_Inner {
     position: absolute;

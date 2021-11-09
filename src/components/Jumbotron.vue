@@ -15,7 +15,7 @@ export default {
   },
   data (){
     return {
-      imgPath: require(`../assets/${this.fileName}`)
+      imgPath: require(`../assets/img/${this.fileName}`)
     }
   }
 }
