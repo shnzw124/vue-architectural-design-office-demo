@@ -15,24 +15,26 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Btn {
-    display: inline-block;
-    width: 235px;
-    max-width: 100%;
-    padding: 19px 10px 18px;
-    background-color: #F7D43F;
+    background-color: #f7d43f;
+    border-radius: 50px;
     box-shadow: 0 0 6px #423d3b;
     color: #171717;
-    font-weight: bold;
+    display: inline-block;
     font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: .05em;
+    line-height: 1.875;
+    max-width: 100%;
+    padding: 19px 10px 18px;
     text-align: center;
     text-decoration: none;
     transition: .25s;
-    border-radius: 50px;
-    line-height: 1.875;
-    letter-spacing: 0.05em;
+    width: 235px;
   }
-  .Btn:focus, .Btn:hover {
+  .Btn:focus,
+  .Btn:hover {
     background-color: #fff;
-    color: #F7D43F;
+    color: #f7d43f;
   }
+
 </style>

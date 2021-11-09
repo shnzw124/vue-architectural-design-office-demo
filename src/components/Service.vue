@@ -46,24 +46,24 @@ export default {
     padding: 0 120px 70px;
   }
   .Service_Title {
-    position: relative;
     font-size: 3.75rem;
-    font-weight: bold;
     font-style: italic;
-    text-align: left;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: .8;
     margin-bottom: 70px;
-    line-height: 0.8;
-    letter-spacing: 0.1em;
+    position: relative;
+    text-align: left;
   }
   .Service_Title::after {
-    content: '';
+    border: 3px solid #282f35;
+    content: "";
     display: inline-block;
-    width: 200px;
-    border: 3px solid #282F35;
+    margin-left: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 30px;
+    width: 200px;
   }
   .Service_Jumbotrons {
     display: flex;
@@ -75,12 +75,12 @@ export default {
     width: 33.33333%;
   }
   .Service_BackgroundText {
+    color: rgba(23,23,23,.05);
     font-size: 5.625rem;
     font-weight: bold;
-    color: rgba(23,23,23,.05);
-    text-align: right;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    text-align: right;
   }
   @media screen and (max-width: $tb) {
     .Service_Jumbotrons {
@@ -88,10 +88,10 @@ export default {
       margin-bottom: 40px;
     }
     .Service_Jumbotron {
-      width: 100%;
-      margin-right: auto;
-      margin-left: auto;
       margin-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
     }
     .Service_Jumbotron:last-child {
       margin-bottom: 0;
@@ -114,4 +114,5 @@ export default {
       font-size: 2.5rem;
     }
   }
+
 </style>

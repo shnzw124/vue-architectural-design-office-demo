@@ -15,15 +15,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Footer_Inner {
-    padding-top: 30px;
     padding-bottom: 30px;
+    padding-top: 30px;
   }
   .Footer_Text {
-    text-align: center;
+    color: #282f35;
     font-size: 14px;
     font-weight: bold;
-    color: #282F35;
+    letter-spacing: .05em;
     line-height: 2.14286;
-    letter-spacing: 0.05em;
+    text-align: center;
   }
+
 </style>

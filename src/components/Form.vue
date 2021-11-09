@@ -55,32 +55,45 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Form_Inner {
-    max-width: 700px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
   }
   .Form_Inner > *:last-child {
     margin-bottom: 0;
   }
-  .Form_DocumentLabel, .Form_CounsellingLabel, .Form_ApplicationLabel {
-    margin-right: 20px;
+  .Form_DocumentLabel,
+  .Form_CounsellingLabel,
+  .Form_ApplicationLabel {
+    letter-spacing: .05em;
     line-height: 1.1875;
-    letter-spacing: 0.05em;
+    margin-right: 20px;
   }
-  .Form_DocumentCheckbox, .Form_CounsellingCheckbox, .Form_ApplicationCheckbox {
+  .Form_DocumentCheckbox,
+  .Form_CounsellingCheckbox,
+  .Form_ApplicationCheckbox {
     margin-right: 10px;
   }
-  .Form_TopicArea, .Form_NameArea, .Form_TelArea, .Form_EmailArea, .Form_OtherArea {
+  .Form_TopicArea,
+  .Form_NameArea,
+  .Form_TelArea,
+  .Form_EmailArea,
+  .Form_OtherArea {
     display: flex;
     flex-direction: column;
-    text-align: left;
     margin-bottom: 25px;
+    text-align: left;
   }
-  .Form_NameInput, .Form_TelInput, .Form_EmailInput, .Form_OtherInput {
-    width: 100%;
+  .Form_NameInput,
+  .Form_TelInput,
+  .Form_EmailInput,
+  .Form_OtherInput {
     border: 1px solid #141414;
+    width: 100%;
   }
-  .Form_NameInput, .Form_TelInput, .Form_EmailInput {
+  .Form_NameInput,
+  .Form_TelInput,
+  .Form_EmailInput {
     height: 1.875rem;
   }
   .Form_OtherInput {
@@ -89,10 +102,14 @@ export default {
   .Form_TopicCheckbox {
     display: flex;
   }
-  .Form_TopicLabel, .Form_NameLabel, .Form_TelLabel, .Form_EmailLabel, .Form_OtherLabel {
+  .Form_TopicLabel,
+  .Form_NameLabel,
+  .Form_TelLabel,
+  .Form_EmailLabel,
+  .Form_OtherLabel {
     font-weight: bold;
+    letter-spacing: .05em;
     line-height: 1.875;
-    letter-spacing: 0.05em;
   }
   @media screen and (max-width: $sp) {
     .Form_Inner {
@@ -102,4 +119,5 @@ export default {
       flex-direction: column;
     }
   }
+
 </style>

@@ -53,53 +53,53 @@ export default {
     padding: 104px 120px 70px;
   }
   .Works_Title {
-    position: relative;
-    font-size: 3.75rem;
-    font-weight: bold;
-    font-style: italic;
     color: #fff;
-    text-align: right;
+    font-size: 3.75rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: .8;
     margin-bottom: 80px;
+    position: relative;
+    text-align: right;
     transform: translateX(-230px);
-    line-height: 0.8;
-    letter-spacing: 0.1em;
   }
   .Works_Title::after {
-    content: '';
-    display: inline-block;
-    width: 200px;
     border: 3px solid #fff;
+    content: "";
+    display: inline-block;
+    margin-left: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 30px;
+    width: 200px;
   }
   .Works_Cards {
-    margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
+    justify-content: center;
+    margin-bottom: 80px;
   }
   .Works_Btn {
     margin-bottom: 70px;
   }
   .Works_BackgroundText {
+    color: rgba(255,255,255,.05);
     font-size: 5.625rem;
     font-weight: bold;
-    color: rgba(255,255,255,.05);
-    text-align: left;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    text-align: left;
   }
   @media screen and (max-width: $tb) {
     .Works_Cards {
       flex-direction: column;
     }
     .Works_Card {
-      width: 100%;
-      margin-right: auto;
       margin-left: auto;
+      margin-right: auto;
+      width: 100%;
     }
   }
   @media screen and (max-width: $sp) {
@@ -111,11 +111,12 @@ export default {
       transform: translateX(-120px);
     }
     .Works_Title::after {
-      width: 90px;
       margin-left: 30px;
+      width: 90px;
     }
     .Works_BackgroundText {
       font-size: 2.5rem;
     }
   }
+
 </style>

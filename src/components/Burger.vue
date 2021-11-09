@@ -92,7 +92,7 @@ export default {
     z-index: 2;
   }
   .Burger_Menu {
-    background-color: #282F35;
+    background-color: #282f35;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -113,20 +113,23 @@ export default {
   .Burger_Item {
     font-style: italic;
     font-weight: bold;
+    letter-spacing: .05em;
     line-height: 1.375;
-    letter-spacing: 0.05em;
   }
   .Burger_Link {
     color: #fff;
   }
   /* アニメーション */
-  .Burger_Menu-enter-active, .Burger_Menu-leave-active {
-    transition: opacity 0.4s;
+  .Burger_Menu-enter-active,
+  .Burger_Menu-leave-active {
+    transition: opacity .4s;
   }
-  .Burger_Menu-enter, .Burger_Menu-leave-to {
+  .Burger_Menu-enter,
+  .Burger_Menu-leave-to {
     opacity: 0;
   }
-  .Burger_Menu-leave, .Burger_Menu-enter-to{
+  .Burger_Menu-leave,
+  .Burger_Menu-enter-to {
     opacity: 1;
   }
   @media screen and (max-width: $sp) {
@@ -134,4 +137,5 @@ export default {
       display: block;
     }
   }
+
 </style>

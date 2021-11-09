@@ -24,41 +24,42 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Jumbotron {
-    width: 100%;
-    height: 20vw;
-    max-height: 320px;
+    align-content: center;
     background-position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    height: 20vw;
     justify-content: center;
-    align-content: center;
+    max-height: 320px;
+    width: 100%;
   }
   .Jumbotron_Title {
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
     color: #fff;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .05em;
     line-height: 1.25;
-    letter-spacing: 0.05em;
   }
-  @media screen and (max-width: $tb) {    
+  @media screen and (max-width: $tb) {
     .Jumbotron {
-      width: 100%;
       height: 50vw;
+      width: 100%;
     }
   }
   @media screen and (max-width: $sp) {
     .Jumbotron {
-      width: 100%;
       height: 70vw;
       max-height: 250px;
+      width: 100%;
     }
     .Jumbotron_Title {
-      font-size: 1.25rem;
-      font-weight: bold;
-      font-style: italic;
       color: #fff;
+      font-size: 1.25rem;
+      font-style: italic;
+      font-weight: bold;
     }
   }
+
 </style>

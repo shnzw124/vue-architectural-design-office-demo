@@ -35,16 +35,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Fv {
-    position: relative;
     height: 752px;
+    position: relative;
   }
   .Fv_Background {
+    background-position: top center;
+    background-size: cover;
+    height: 752px;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: top center;
-    height: 752px;
     width: 100%;
     z-index: -1;
   }
@@ -58,27 +58,27 @@ export default {
     background-image: url("../assets/img/fv-bgi_03@2x.jpg");
   }
   .Fv_Inner {
+    background: transparent;
+    left: 120px;
     position: absolute;
     top: 409px;
-    left: 120px;
-    background: transparent;
   }
   .Fv_Title {
-    text-align: center;
+    color: #fff;
     font-size: 4.375rem;
     font-weight: bold;
-    color: #fff;
+    letter-spacing: .05em;
+    line-height: .71429;
     margin-bottom: 31px;
-    line-height: 0.71429;
-    letter-spacing: 0.05em;
+    text-align: center;
   }
   .Fv_SubTitle {
-    text-align: center;
+    color: #fff;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #fff;
+    letter-spacing: .05em;
     line-height: 1.25;
-    letter-spacing: 0.05em;
+    text-align: center;
   }
   ._sp-only {
     display: none;
@@ -91,22 +91,23 @@ export default {
       height: 599px;
     }
     .Fv_Inner {
-      width: 100%;
-      top: 50%;
       left: 50%;
+      top: 50%;
       transform: translate(-50%, -50%);
+      width: 100%;
     }
     .Fv_Title {
-      text-align: center;
       font-size: 2.3125rem;
       margin-bottom: 59px;
+      text-align: center;
     }
     .Fv_SubTitle {
-      text-align: center;
       font-size: 1.875rem;
+      text-align: center;
     }
     ._sp-only {
       display: block;
     }
   }
+
 </style>

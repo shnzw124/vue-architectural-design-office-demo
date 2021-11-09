@@ -38,4 +38,5 @@ export default {
   .Contact_Btn {
     margin-bottom: 80px;
   }
+
 </style>

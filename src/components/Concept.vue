@@ -29,57 +29,57 @@ export default {
     padding: 100px 120px 70px 220px;
   }
   .Concept_Title {
-    position: relative;
     font-size: 3.75rem;
-    font-weight: bold;
     font-style: italic;
-    text-align: left;
+    font-weight: bold;
+    letter-spacing: .05em;
+    line-height: .8;
     margin-bottom: 70px;
-    line-height: 0.8;
-    letter-spacing: 0.05em;
+    position: relative;
+    text-align: left;
   }
   .Concept_Title::after {
-    content: '';
+    border: 3px solid #282f35;
+    content: "";
     display: inline-block;
-    width: 200px;
-    border: 3px solid #282F35;
+    margin-left: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 30px;
+    width: 200px;
   }
   .Concept_SubTitle {
     font-size: 1.875rem;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 60px;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    margin-bottom: 60px;
+    text-align: center;
   }
   .Concept_Container {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 12%;
     margin-bottom: 70px;
     padding-right: 100px;
   }
   .Concept_Text {
     font-weight: bold;
+    letter-spacing: .05em;
+    line-height: 1.875;
     text-align: left;
     width: 44%;
-    line-height: 1.875;
-    letter-spacing: 0.05em;
   }
   .Concept_Img {
     width: 44%;
   }
   .Concept_BackgroundText {
+    color: rgba(23,23,23,.05);
     font-size: 5.625rem;
     font-weight: bold;
-    color: rgba(23,23,23,.05);
-    text-align: right;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    text-align: right;
   }
   @media screen and (max-width: $tb) {
     .Concept_Inner {
@@ -90,8 +90,8 @@ export default {
       padding-right: 0;
     }
     .Concept_Text {
-      width: 100%;
       margin-bottom: 30px;
+      width: 100%;
     }
     .Concept_Img {
       width: 100%;
@@ -114,4 +114,5 @@ export default {
       font-size: 2.5rem;
     }
   }
+
 </style>

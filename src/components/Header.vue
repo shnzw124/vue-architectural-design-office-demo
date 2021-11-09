@@ -34,36 +34,36 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   .Header {
+    background-color: #282f35;
     font-style: italic;
     position: fixed;
     width: 100%;
-    background-color: #282F35;
     z-index: 10;
   }
   .Header_Inner {
-    padding: 19px 120px;
     display: flex;
     justify-content: space-between;
+    padding: 19px 120px;
   }
   .Header_Logo {
     font-size: 1.625rem;
     font-weight: bold;
+    letter-spacing: .05em;
     line-height: 1.38462;
-    letter-spacing: 0.05em;
   }
   .Header_Nav {
-    display: flex;
     align-items: center;
+    display: flex;
   }
   .Header_List {
     display: flex;
     list-style: none;
   }
   .Header_Item {
-    margin-right: 30px;
     font-weight: bold;
+    letter-spacing: .05em;
     line-height: 1.375;
-    letter-spacing: 0.05em;
+    margin-right: 30px;
   }
   .Header_Item:last-child {
     margin-right: 0;
@@ -76,4 +76,5 @@ export default {
       display: none;
     }
   }
+
 </style>

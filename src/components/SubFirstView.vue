@@ -22,8 +22,8 @@ export default {
   .Sbfv {
     /* 背景画像もpropsで埋め込みたい */
     background-image: url("../assets/img/contact-page-bgi@2x.jpg");
-    background-size: cover;
     background-position: top center;
+    background-size: cover;
     height: 453px;
   }
   .Sbfv_Inner {
@@ -31,38 +31,39 @@ export default {
     position: relative;
   }
   .Sbfv_Title {
-    text-align: center;
-    font-size: 4.375rem;
-    font-weight: bold;
     color: #fff;
+    font-size: 4.375rem;
     font-style: italic;
-    line-height: 0.8;
-    letter-spacing: 0.1em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: .8;
+    text-align: center;
   }
   .Sbfv_BackgroundText {
+    color: rgba(255,255,255,.05);
     font-size: 5.625rem;
     font-weight: bold;
-    color: rgba(255,255,255,.05);
-    text-align: left;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    text-align: left;
   }
   @media screen and (max-width: $sp) {
     .Sbfv {
       height: 360px;
     }
     .Sbfv_Inner {
-      padding-top: 175px;
       padding-bottom: 40px;
       padding-left: 15px;
+      padding-top: 175px;
     }
     .Sbfv_Title {
-      text-align: center;
       font-size: 1.875rem;
       margin-bottom: 40px;
+      text-align: center;
     }
     .Sbfv_BackgroundText {
       font-size: 2.5rem;
     }
   }
+
 </style>

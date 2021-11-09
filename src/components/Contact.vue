@@ -32,45 +32,45 @@ export default {
     padding: 104px 120px 70px;
   }
   .Contact_Title {
-    position: relative;
-    font-size: 3.75rem;
-    font-weight: bold;
-    font-style: italic;
     color: #fff;
-    text-align: right;
+    font-size: 3.75rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: .8;
     margin-bottom: 80px;
+    position: relative;
+    text-align: right;
     transform: translateX(-230px);
-    line-height: 0.8;
-    letter-spacing: 0.1em;
   }
   .Contact_Title::after {
-    content: '';
-    display: inline-block;
-    width: 200px;
     border: 3px solid #fff;
+    content: "";
+    display: inline-block;
+    margin-left: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 30px;
+    width: 200px;
   }
   .Contact_Text {
+    color: #fff;
     font-size: 1.25rem;
     font-weight: bold;
-    color: #fff;
-    margin-bottom: 40px;
+    letter-spacing: .05em;
     line-height: 1.2;
-    letter-spacing: 0.05em;
+    margin-bottom: 40px;
   }
   .Contact_Btn {
     margin-bottom: 70px;
   }
   .Contact_BackgroundText {
+    color: rgba(255,255,255,.05);
     font-size: 5.625rem;
     font-weight: bold;
-    color: rgba(255,255,255,.05);
-    text-align: left;
+    letter-spacing: .05em;
     line-height: 1.66667;
-    letter-spacing: 0.05em;
+    text-align: left;
   }
   @media screen and (max-width: $sp) {
     .Contact_Inner {
@@ -87,4 +87,5 @@ export default {
       font-size: 2.5rem;
     }
   }
+
 </style>

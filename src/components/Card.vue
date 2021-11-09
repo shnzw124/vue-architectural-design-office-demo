@@ -37,29 +37,30 @@ export default {
     width: 320px;
   }
   .Card_ImgWrapper {
-    position: relative;
-    padding-top: 59.880%;
     overflow: hidden;
+    padding-top: 59.880%;
+    position: relative;
   }
   .Card_Img {
+    left: 0;
     position: absolute;
     top: 50%;
-    left: 0;
-    width: 100%;
     transform: translateY(-50%);
+    width: 100%;
   }
   .Card_Body {
     padding: 25px 20px;
   }
   .Card_Text {
     color: #141414;
-    text-align: left;
+    letter-spacing: .05em;
     line-height: 1.875;
-    letter-spacing: 0.05em;
+    text-align: left;
   }
   @media screen and (max-width: $tb) {
     .Card {
       max-width: 100%;
     }
   }
+
 </style>
