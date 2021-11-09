@@ -28,11 +28,9 @@ export default {
     background-image: url("../assets/contact-bgi@2x.jpg");
     background-size: cover;
   }
-
   .Contact_Inner {
     padding: 104px 120px 70px;
   }
-
   .Contact_Title {
     position: relative;
     font-size: 3.75rem;
@@ -45,7 +43,6 @@ export default {
     line-height: 0.8;
     letter-spacing: 0.1em;
   }
-
   .Contact_Title::after {
     content: '';
     display: inline-block;
@@ -56,7 +53,6 @@ export default {
     transform: translateY(-50%);
     margin-left: 30px;
   }
-
   .Contact_Text {
     font-size: 1.25rem;
     font-weight: bold;
@@ -65,11 +61,9 @@ export default {
     line-height: 1.2;
     letter-spacing: 0.05em;
   }
-
   .Contact_Btn {
     margin-bottom: 70px;
   }
-
   .Contact_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
@@ -78,27 +72,19 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-
   @media screen and (max-width: 414px) {
-
     .Contact_Inner {
       padding: 100px 15px 40px;
     }
-
     .Contact_Title {
       font-size: 1.875rem;
       transform: translateX(-120px);
     }
-
     .Contact_Title::after {
       width: 90px;
     }
-
     .Contact_BackgroundText {
       font-size: 2.5rem;
     }
-
   }
-
-  
 </style>

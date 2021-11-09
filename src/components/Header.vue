@@ -40,51 +40,40 @@ export default {
     background-color: #282F35;
     z-index: 10;
   }
-
   .Header_Inner {
     padding: 19px 120px;
     display: flex;
     justify-content: space-between;
   }
-
   .Header_Logo {
     font-size: 1.625rem;
     font-weight: bold;
     line-height: 1.38462;
     letter-spacing: 0.05em;
   }
-
   .Header_Nav {
     display: flex;
     align-items: center;
   }
-
   .Header_List {
     display: flex;
     list-style: none;
   }
-
   .Header_Item {
     margin-right: 30px;
     font-weight: bold;
     line-height: 1.375;
     letter-spacing: 0.05em;
   }
-
   .Header_Item:last-child {
     margin-right: 0;
   }
-
   @media screen and (max-width: 414px) {
-
     .Header_Inner {
       padding: 19px 15px;
     }
-
     .Header_List {
       display: none;
     }
-
   }
-
 </style>

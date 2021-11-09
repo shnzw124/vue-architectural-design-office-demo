@@ -41,7 +41,6 @@ export default {
   .Burger {
     display: none;
   }
-
   .Burger_Icon {
     border: none;
     display: block;
@@ -50,7 +49,6 @@ export default {
     width: 39px;
     z-index: 3;
   }
-
   .Burger_Bar {
     background-color: #fff;
     display: block;
@@ -60,39 +58,31 @@ export default {
     transform: translateX(-50%);
     width: 20px;
   }
-
   .Burger_BarTop {
     top: 10px;
   }
-
   .Burger_BarMid {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-
   .Burger_BarBottom {
     bottom: 10px;
   }
-
   .Burger_Bar._close {
     background-color: #fff;
   }
-
   .Burger_BarTop._close {
     transform: translate(-50%, 10px) rotate(45deg);
     transition: transform .3s;
   }
-
   .Burger_BarMid._close {
     opacity: 0;
     transition: opacity .3s;
   }
-
   .Burger_BarBottom._close {
     transform: translate(-50%, -6px) rotate(-45deg);
     transition: transform .3s;
   }
-
   .Burger_Wrapper {
     height: 100vh;
     left: 0;
@@ -101,14 +91,12 @@ export default {
     width: 100vw;
     z-index: 2;
   }
-
   .Burger_Menu {
     background-color: #282F35;
     height: 100%;
     width: 100%;
     z-index: 2;
   }
-
   .Burger_Menu .Burger_List {
     display: block;
     left: 50%;
@@ -118,40 +106,32 @@ export default {
     top: 50%;
     transform: translate(-50%, -50%);
   }
-
   .Burger_Menu .Burger_Item {
     margin-bottom: 40px;
     margin-right: 0;
   }
-
   .Burger_Item {
     font-style: italic;
     font-weight: bold;
     line-height: 1.375;
     letter-spacing: 0.05em;
   }
-
   .Burger_Link {
     color: #fff;
   }
-
   /* アニメーション */
   .Burger_Menu-enter-active, .Burger_Menu-leave-active {
     transition: opacity 0.4s;
   }
-  
   .Burger_Menu-enter, .Burger_Menu-leave-to {
     opacity: 0;
   }
-  
   .Burger_Menu-leave, .Burger_Menu-enter-to{
     opacity: 1;
   }
-
   @media screen and (max-width: 414px) {
     .Burger {
       display: block;
     }
   }
-  
 </style>

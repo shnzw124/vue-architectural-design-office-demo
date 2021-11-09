@@ -31,10 +31,8 @@ export default {
     line-height: 1.875;
     letter-spacing: 0.05em;
   }
-
   .Btn:focus, .Btn:hover {
     background-color: #fff;
     color: #F7D43F;
   }
-  
 </style>

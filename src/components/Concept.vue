@@ -25,14 +25,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .Concept {
-
-  }
-
   .Concept_Inner {
     padding: 100px 120px 70px 220px;
   }
-
   .Concept_Title {
     position: relative;
     font-size: 3.75rem;
@@ -43,7 +38,6 @@ export default {
     line-height: 0.8;
     letter-spacing: 0.05em;
   }
-
   .Concept_Title::after {
     content: '';
     display: inline-block;
@@ -54,7 +48,6 @@ export default {
     transform: translateY(-50%);
     margin-left: 30px;
   }
-
   .Concept_SubTitle {
     font-size: 1.875rem;
     font-weight: bold;
@@ -63,7 +56,6 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-
   .Concept_Container {
     display: flex;
     align-items: center;
@@ -71,7 +63,6 @@ export default {
     margin-bottom: 70px;
     padding-right: 100px;
   }
-
   .Concept_Text {
     font-weight: bold;
     text-align: left;
@@ -79,11 +70,9 @@ export default {
     line-height: 1.875;
     letter-spacing: 0.05em;
   }
-
   .Concept_Img {
     width: 44%;
   }
-
   .Concept_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
@@ -92,51 +81,37 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-
   @media screen and (max-width: 1080px) {
-
     .Concept_Inner {
-    padding: 100px 120px 70px;
+      padding: 100px 120px 70px;
     }
-
     .Concept_Container {
       flex-direction: column;
       padding-right: 0;
     }
-    
     .Concept_Text {
       width: 100%;
       margin-bottom: 30px;
     }
-
     .Concept_Img {
       width: 100%;
     }
-
   }
-
   @media screen and (max-width: 414px) {
-
     .Concept_Inner {
       padding: 100px 15px 40px;
     }
-
     .Concept_Title {
       font-size: 1.875rem;
     }
-
     .Concept_Title::after {
       width: 90px;
     }
-
     .Concept_SubTitle {
       font-size: 1.25rem;
     }
-
     .Concept_BackgroundText {
       font-size: 2.5rem;
     }
-
   }
-  
 </style>

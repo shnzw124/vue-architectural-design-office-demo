@@ -34,7 +34,6 @@ export default {
     justify-content: center;
     align-content: center;
   }
-
   .Jumbotron_Title {
     font-size: 40px;
     font-weight: bold;
@@ -43,31 +42,23 @@ export default {
     line-height: 1.25;
     letter-spacing: 0.05em;
   }
-
-  @media screen and (max-width: 1024px) {
-    
+  @media screen and (max-width: 1024px) {    
     .Jumbotron {
       width: 100%;
       height: 50vw;
     }
-
   }
-
   @media screen and (max-width: 414px) {
-    
     .Jumbotron {
       width: 100%;
       height: 70vw;
       max-height: 250px;
     }
-
     .Jumbotron_Title {
       font-size: 1.25rem;
       font-weight: bold;
       font-style: italic;
       color: #fff;
     }
-
   }
-  
 </style>

@@ -26,12 +26,10 @@ export default {
     background-position: top center;
     height: 453px;
   }
-
   .Sbfv_Inner {
     padding: 186px 48px 40px;
     position: relative;
   }
-
   .Sbfv_Title {
     text-align: center;
     font-size: 4.375rem;
@@ -41,7 +39,6 @@ export default {
     line-height: 0.8;
     letter-spacing: 0.1em;
   }
-
   .Sbfv_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
@@ -50,29 +47,22 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-
   @media screen and (max-width: 414px) {
-
     .Sbfv {
       height: 360px;
     }
-
     .Sbfv_Inner {
       padding-top: 175px;
       padding-bottom: 40px;
       padding-left: 15px;
     }
-
     .Sbfv_Title {
       text-align: center;
       font-size: 1.875rem;
       margin-bottom: 40px;
     }
-
     .Sbfv_BackgroundText {
       font-size: 2.5rem;
     }
-
   }
-  
 </style>

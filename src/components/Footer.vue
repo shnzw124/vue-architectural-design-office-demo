@@ -14,15 +14,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .Footer {
-
-  }
-
   .Footer_Inner {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
   .Footer_Text {
     text-align: center;
     font-size: 14px;

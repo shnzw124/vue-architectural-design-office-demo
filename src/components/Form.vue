@@ -54,74 +54,52 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .Form {
-
-  }
-
   .Form_Inner {
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
   }
-
   .Form_Inner > *:last-child {
     margin-bottom: 0;
   }
-
   .Form_DocumentLabel, .Form_CounsellingLabel, .Form_ApplicationLabel {
     margin-right: 20px;
     line-height: 1.1875;
     letter-spacing: 0.05em;
   }
-
   .Form_DocumentCheckbox, .Form_CounsellingCheckbox, .Form_ApplicationCheckbox {
     margin-right: 10px;
   }
-
   .Form_TopicArea, .Form_NameArea, .Form_TelArea, .Form_EmailArea, .Form_OtherArea {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 25px;
   }
-
   .Form_NameInput, .Form_TelInput, .Form_EmailInput, .Form_OtherInput {
     width: 100%;
     border: 1px solid #141414;
   }
-
   .Form_NameInput, .Form_TelInput, .Form_EmailInput {
     height: 1.875rem;
   }
-
   .Form_OtherInput {
     height: 10.6875rem;
   }
-
   .Form_TopicCheckbox {
     display: flex;
   }
-
   .Form_TopicLabel, .Form_NameLabel, .Form_TelLabel, .Form_EmailLabel, .Form_OtherLabel {
     font-weight: bold;
     line-height: 1.875;
     letter-spacing: 0.05em;
   }
-
   @media screen and (max-width: 414px) {
-
-    .Form {
-
-    }
-
     .Form_Inner {
       max-width: 90%;
     }
-
     .Form_TopicCheckbox {
       flex-direction: column;
     }
-
   }
-  
 </style>

@@ -49,11 +49,9 @@ export default {
     background-image: url("../assets/works-bgi@2x.jpg");
     background-size: cover;
   }
-
   .Works_Inner {
     padding: 104px 120px 70px;
   }
-
   .Works_Title {
     position: relative;
     font-size: 3.75rem;
@@ -66,7 +64,6 @@ export default {
     line-height: 0.8;
     letter-spacing: 0.1em;
   }
-
   .Works_Title::after {
     content: '';
     display: inline-block;
@@ -77,7 +74,6 @@ export default {
     transform: translateY(-50%);
     margin-left: 30px;
   }
-
   .Works_Cards {
     margin-bottom: 80px;
     display: flex;
@@ -85,11 +81,9 @@ export default {
     justify-content: center;
     gap: 20px;
   }
-
   .Works_Btn {
     margin-bottom: 70px;
   }
-
   .Works_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
@@ -98,40 +92,30 @@ export default {
     line-height: 1.66667;
     letter-spacing: 0.05em;
   }
-
   @media screen and (max-width: 1080px) {
-
     .Works_Cards {
       flex-direction: column;
     }
-
     .Works_Card {
       width: 100%;
       margin-right: auto;
       margin-left: auto;
     }
-    
   }
-
   @media screen and (max-width: 414px) {
-
     .Works_Inner {
       padding: 100px 15px 40px;
     }
-
     .Works_Title {
       font-size: 1.875rem;
       transform: translateX(-120px);
     }
-
     .Works_Title::after {
       width: 90px;
       margin-left: 30px;
     }
-
     .Works_BackgroundText {
       font-size: 2.5rem;
     }
   }
-
 </style>

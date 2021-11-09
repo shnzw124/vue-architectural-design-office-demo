@@ -32,11 +32,9 @@ export default {
   .Contact_Sbfv {
     margin-bottom: 100px;
   }
-
   .Contact_Form {
     margin-bottom: 80px;
   }
-
   .Contact_Btn {
     margin-bottom: 80px;
   }
