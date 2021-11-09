@@ -1,25 +1,25 @@
 <template>
-  <div class="burger">
-    <div class="burger__icon" v-on:click='active=!active'>
-      <span class="burger__bar burger__bar-top" v-bind:class="{'close': active}"></span>
-      <span class="burger__bar burger__bar-mid" v-bind:class="{'close': active}"></span>
-      <span class="burger__bar burger__bar-bottom" v-bind:class="{'close': active}"></span>
+  <div class="Burger">
+    <div class="Burger_Icon" v-on:click='active=!active'>
+      <span class="Burger_Bar Burger_BarTop"    v-bind:class="{'_close': active}"></span>
+      <span class="Burger_Bar Burger_BarMid"    v-bind:class="{'_close': active}"></span>
+      <span class="Burger_Bar Burger_BarBottom" v-bind:class="{'_close': active}"></span>
     </div>
-    <transition name="burger__menu">
-      <div class="burger__wrapper" v-show="active">
-        <nav class="burger__menu">
+    <transition name="Burger_Menu">
+      <div class="Burger_Wrapper" v-show="active">
+        <nav class="Burger_Menu">
           <!-- TODO: v-forでレンダリング -->
-          <ul class="burger__list" @click="active=!active">
+          <ul class="Burger_List" @click="active=!active">
             <!-- TODO: urlとtextをpropsで渡す -->
-            <li class="burger__item"><a href="#concept" class="burger__link">Concept</a></li>
-            <li class="burger__item"><a href="#service" class="burger__link">Service</a></li>
-            <li class="burger__item"><a href="#works" class="burger__link">Works</a></li>
-            <li class="burger__item"><a href="#contact" class="burger__link">Contact</a></li>
+            <li class="Burger_Item"><a href="#concept" class="Burger_Link">Concept</a></li>
+            <li class="Burger_Item"><a href="#service" class="Burger_Link">Service</a></li>
+            <li class="Burger_Item"><a href="#works"   class="Burger_Link">Works</a></li>
+            <li class="Burger_Item"><a href="#contact" class="Burger_Link">Contact</a></li>
           </ul>
         </nav>
       </div>
     </transition>
-  </div><!-- /.burger -->
+  </div><!-- /.Burger -->
 </template>
 
 <script>
@@ -38,11 +38,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .burger {
+  .Burger {
     display: none;
   }
 
-  .burger__icon {
+  .Burger_Icon {
     border: none;
     display: block;
     height: 39px;
@@ -51,7 +51,7 @@ export default {
     z-index: 3;
   }
 
-  .burger__bar {
+  .Burger_Bar {
     background-color: #fff;
     display: block;
     height: 3px;
@@ -61,39 +61,39 @@ export default {
     width: 20px;
   }
 
-  .burger__bar-top {
+  .Burger_BarTop {
     top: 10px;
   }
 
-  .burger__bar-mid {
+  .Burger_BarMid {
     top: 50%;
     transform: translate(-50%, -50%);
   }
 
-  .burger__bar-bottom {
+  .Burger_BarBottom {
     bottom: 10px;
   }
 
-  .burger__bar.close {
+  .Burger_Bar._close {
     background-color: #fff;
   }
 
-  .burger__bar-top.close {
+  .Burger_BarTop._close {
     transform: translate(-50%, 10px) rotate(45deg);
     transition: transform .3s;
   }
 
-  .burger__bar-mid.close {
+  .Burger_BarMid._close {
     opacity: 0;
     transition: opacity .3s;
   }
 
-  .burger__bar-bottom.close {
+  .Burger_BarBottom._close {
     transform: translate(-50%, -6px) rotate(-45deg);
     transition: transform .3s;
   }
 
-  .burger__wrapper {
+  .Burger_Wrapper {
     height: 100vh;
     left: 0;
     position: fixed;
@@ -102,14 +102,14 @@ export default {
     z-index: 2;
   }
 
-  .burger__menu {
+  .Burger_Menu {
     background-color: #282F35;
     height: 100%;
     width: 100%;
     z-index: 2;
   }
 
-  .burger__menu .burger__list {
+  .Burger_Menu .Burger_List {
     display: block;
     left: 50%;
     list-style: none;
@@ -119,37 +119,37 @@ export default {
     transform: translate(-50%, -50%);
   }
 
-  .burger__menu .burger__item {
+  .Burger_Menu .Burger_Item {
     margin-bottom: 40px;
     margin-right: 0;
   }
 
-  .burger__item {
+  .Burger_Item {
     font-style: italic;
     font-weight: bold;
     line-height: 1.375;
     letter-spacing: 0.05em;
   }
 
-  .burger__link {
+  .Burger_Link {
     color: #fff;
   }
 
   /* アニメーション */
-  .burger__menu-enter-active, .burger__menu-leave-active {
+  .Burger_Menu-enter-active, .Burger_Menu-leave-active {
     transition: opacity 0.4s;
   }
   
-  .burger__menu-enter, .burger__menu-leave-to {
+  .Burger_Menu-enter, .Burger_Menu-leave-to {
     opacity: 0;
   }
   
-  .burger__menu-leave, .burger__menu-enter-to{
+  .Burger_Menu-leave, .Burger_Menu-enter-to{
     opacity: 1;
   }
 
   @media screen and (max-width: 414px) {
-    .burger {
+    .Burger {
       display: block;
     }
   }

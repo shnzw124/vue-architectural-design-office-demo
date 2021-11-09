@@ -1,20 +1,20 @@
 <template>
-  <section class="concept" id="concept">
-    <div class="concept__inner">
-      <h2 class="concept__title">CONCEPT</h2><!-- /.concept__title -->
-      <h3 class="concept__sub-title">
+  <section class="Concept" id="concept">
+    <div class="Concept_Inner">
+      <h2 class="Concept_Title">CONCEPT</h2><!-- /.Concept_Title -->
+      <h3 class="Concept_SubTitle">
         “働きたくなる空間”をデザインすることで <br>
         人々を幸せにする。
-      </h3><!-- /.concept__sub-title -->
-      <div class="concept__container">
-        <p class="concept__text">
+      </h3><!-- /.Concept_SubTitle -->
+      <div class="Concept_Container">
+        <p class="Concept_Text">
           私たちは、オフィスに特化した空間デザイン専門としております。その理由は、「働きたくなる空間で仕事ができれば多くの人を幸せにできるのではないか」と考えるためです。そんな想いの株式会社Cresta Designだからこそできる空間デザインを提供させていただきます。  
-        </p><!-- /.concept__text -->
-        <img src="../assets/concept-image@2x.jpg" alt="" class="concept__img">
-      </div><!-- /.concept__content -->
-      <div class="concept__background-text">Our Concept</div><!-- /.concept__background-text -->
-    </div><!-- /.concept__inner -->
-  </section><!-- /.concept -->
+        </p><!-- /.Concept_Text -->
+        <img src="../assets/concept-image@2x.jpg" alt="" class="Concept_Img">
+      </div><!-- /.Concept_content -->
+      <div class="Concept_BackgroundText">Our Concept</div><!-- /.Concept_BackgroundText -->
+    </div><!-- /.Concept_Inner -->
+  </section><!-- /.Concept -->
 </template>
 
 <script>
@@ -25,15 +25,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .concept {
+  .Concept {
 
   }
 
-  .concept__inner {
+  .Concept_Inner {
     padding: 100px 120px 70px 220px;
   }
 
-  .concept__title {
+  .Concept_Title {
     position: relative;
     font-size: 3.75rem;
     font-weight: bold;
@@ -44,7 +44,7 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .concept__title::after {
+  .Concept_Title::after {
     content: '';
     display: inline-block;
     width: 200px;
@@ -55,7 +55,7 @@ export default {
     margin-left: 30px;
   }
 
-  .concept__sub-title {
+  .Concept_SubTitle {
     font-size: 1.875rem;
     font-weight: bold;
     text-align: center;
@@ -64,7 +64,7 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .concept__container {
+  .Concept_Container {
     display: flex;
     align-items: center;
     gap: 12%;
@@ -72,7 +72,7 @@ export default {
     padding-right: 100px;
   }
 
-  .concept__text {
+  .Concept_Text {
     font-weight: bold;
     text-align: left;
     width: 44%;
@@ -80,11 +80,11 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .concept__img {
+  .Concept_Img {
     width: 44%;
   }
 
-  .concept__background-text {
+  .Concept_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
     color: rgba(23,23,23,.05);
@@ -95,21 +95,21 @@ export default {
 
   @media screen and (max-width: 1080px) {
 
-    .concept__inner {
+    .Concept_Inner {
     padding: 100px 120px 70px;
     }
 
-    .concept__container {
+    .Concept_Container {
       flex-direction: column;
       padding-right: 0;
     }
     
-    .concept__text {
+    .Concept_Text {
       width: 100%;
       margin-bottom: 30px;
     }
 
-    .concept__img {
+    .Concept_Img {
       width: 100%;
     }
 
@@ -117,23 +117,23 @@ export default {
 
   @media screen and (max-width: 414px) {
 
-    .concept__inner {
+    .Concept_Inner {
       padding: 100px 15px 40px;
     }
 
-    .concept__title {
+    .Concept_Title {
       font-size: 1.875rem;
     }
 
-    .concept__title::after {
+    .Concept_Title::after {
       width: 90px;
     }
 
-    .concept__sub-title {
+    .Concept_SubTitle {
       font-size: 1.25rem;
     }
 
-    .concept__background-text {
+    .Concept_BackgroundText {
       font-size: 2.5rem;
     }
 

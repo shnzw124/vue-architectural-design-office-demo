@@ -1,5 +1,5 @@
 <template>
-  <a class="btn" :href="url">{{ text }}</a><!-- /.button -->
+  <a class="Btn" :href="url">{{ text }}</a><!-- /.button -->
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .btn {
+  .Btn {
     display: inline-block;
     width: 235px;
     max-width: 100%;
@@ -32,7 +32,7 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .btn:focus, .btn:hover {
+  .Btn:focus, .Btn:hover {
     background-color: #fff;
     color: #F7D43F;
   }

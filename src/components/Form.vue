@@ -1,49 +1,49 @@
 <template>
-  <section class="form">
-    <form class="form__inner">
-      <div class="form__topic-area">
-        <label class="form__topic-label">お問い合わせ内容</label>
+  <section class="Form">
+    <form class="Form_Inner">
+      <div class="Form_TopicArea">
+        <label class="Form_TopicLabel">お問い合わせ内容</label>
 
-        <div class="form__topic-checkbox">
-          <div class="form__document-area">
-            <input class="form__document-checkbox" type="checkbox" id="document" name="document">
-            <label class="form__document-label" for="document">資料請求</label>
-          </div><!-- /.form__document-area -->
+        <div class="Form_TopicCheckbox">
+          <div class="Form_documentArea">
+            <input class="Form_DocumentCheckbox" type="checkbox" id="document" name="document">
+            <label class="Form_DocumentLabel" for="document">資料請求</label>
+          </div><!-- /.Form_documentArea -->
 
-          <div class="form__counselling-area">
-            <input class="form__counselling-checkbox" type="checkbox" id="counselling" name="counselling">
-            <label class="form__counselling-label" for="counselling">お電話でのご相談を希望</label>
-          </div><!-- /.form__counselling-area -->
+          <div class="Form_counsellingArea">
+            <input class="Form_CounsellingCheckbox" type="checkbox" id="counselling" name="counselling">
+            <label class="Form_CounsellingLabel" for="counselling">お電話でのご相談を希望</label>
+          </div><!-- /.Form_counsellingArea -->
 
-          <div class="form__application-area">
-            <input class="form__application-checkbox" type="checkbox" id="application" name="application">
-            <label class="form__application-label" for="application">申し込み</label>
-          </div><!-- /.form__application-area -->
+          <div class="Form_applicationArea">
+            <input class="Form_ApplicationCheckbox" type="checkbox" id="application" name="application">
+            <label class="Form_ApplicationLabel" for="application">申し込み</label>
+          </div><!-- /.Form_applicationArea -->
         </div>
-      </div><!-- /.form__topic-area -->
+      </div><!-- /.Form_TopicArea -->
 
-      <div class="form__name-area">
-        <label class="form__name-label" for="name">担当者名</label>
-        <input class="form__name-input" type="text" id="name">
-      </div><!-- /.form__name-area -->
+      <div class="Form_NameArea">
+        <label class="Form_NameLabel" for="name">担当者名</label>
+        <input class="Form_NameInput" type="text" id="name">
+      </div><!-- /.Form_NameArea -->
 
-      <div class="form__tel-area">
-        <label class="form__tel-label" for="tel">電話番号</label>
-        <input class="form__tel-input" type="text" id="tel">
-      </div><!-- /.form__tel-area -->
+      <div class="Form_TelArea">
+        <label class="Form_TelLabel" for="tel">電話番号</label>
+        <input class="Form_TelInput" type="text" id="tel">
+      </div><!-- /.Form_TelArea -->
 
-      <div class="form__email-area">
-        <label class="form__email-label" for="email">メールアドレス</label>
-        <input class="form__email-input" type="text" id="email">
-      </div><!-- /.form__mail-area -->
+      <div class="Form_EmailArea">
+        <label class="Form_EmailLabel" for="email">メールアドレス</label>
+        <input class="Form_EmailInput" type="text" id="email">
+      </div><!-- /.Form_mailArea -->
 
-      <div class="form__other-area">
-        <label class="form__other-label" for="other">その他</label>
-        <textarea class="form__other-input" name="other" id="other"></textarea>
-      </div><!-- /.form__other-area -->
+      <div class="Form_OtherArea">
+        <label class="Form_OtherLabel" for="other">その他</label>
+        <textarea class="Form_OtherInput" name="other" id="other"></textarea>
+      </div><!-- /.Form_OtherArea -->
       
-    </form><!-- /.form__inner -->
-  </section><!-- /.form -->
+    </form><!-- /.Form_Inner -->
+  </section><!-- /.Form -->
 </template>
 
 <script>
@@ -54,55 +54,55 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .form {
+  .Form {
 
   }
 
-  .form__inner {
+  .Form_Inner {
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .form__inner > *:last-child {
+  .Form_Inner > *:last-child {
     margin-bottom: 0;
   }
 
-  .form__document-label, .form__counselling-label, .form__application-label {
+  .Form_DocumentLabel, .Form_CounsellingLabel, .Form_ApplicationLabel {
     margin-right: 20px;
     line-height: 1.1875;
     letter-spacing: 0.05em;
   }
 
-  .form__document-checkbox, .form__counselling-checkbox, .form__application-checkbox {
+  .Form_DocumentCheckbox, .Form_CounsellingCheckbox, .Form_ApplicationCheckbox {
     margin-right: 10px;
   }
 
-  .form__topic-area, .form__name-area, .form__tel-area, .form__email-area, .form__other-area {
+  .Form_TopicArea, .Form_NameArea, .Form_TelArea, .Form_EmailArea, .Form_OtherArea {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 25px;
   }
 
-  .form__name-input, .form__tel-input, .form__email-input, .form__other-input {
+  .Form_NameInput, .Form_TelInput, .Form_EmailInput, .Form_OtherInput {
     width: 100%;
     border: 1px solid #141414;
   }
 
-  .form__name-input, .form__tel-input, .form__email-input {
+  .Form_NameInput, .Form_TelInput, .Form_EmailInput {
     height: 1.875rem;
   }
 
-  .form__other-input {
+  .Form_OtherInput {
     height: 10.6875rem;
   }
 
-  .form__topic-checkbox {
+  .Form_TopicCheckbox {
     display: flex;
   }
 
-  .form__topic-label, .form__name-label, .form__tel-label, .form__email-label, .form__other-label {
+  .Form_TopicLabel, .Form_NameLabel, .Form_TelLabel, .Form_EmailLabel, .Form_OtherLabel {
     font-weight: bold;
     line-height: 1.875;
     letter-spacing: 0.05em;
@@ -110,15 +110,15 @@ export default {
 
   @media screen and (max-width: 414px) {
 
-    .form {
+    .Form {
 
     }
 
-    .form__inner {
+    .Form_Inner {
       max-width: 90%;
     }
 
-    .form__topic-checkbox {
+    .Form_TopicCheckbox {
       flex-direction: column;
     }
 

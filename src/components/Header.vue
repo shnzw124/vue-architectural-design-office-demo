@@ -1,25 +1,25 @@
 <template>
-  <header class="header">
-    <div class="header__inner">
-      <div class="header__logo"><a href="/" class="header__link">Cresta Design</a></div><!-- /.header__logo -->
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#concept" class="header__link">Concept</a><!-- /.header__link -->
-          </li><!-- /.header__item -->
-          <li class="header__item">
-            <a href="#service" class="header__link">Service</a><!-- /.header__link -->
-          </li><!-- /.header__item -->
-          <li class="header__item">
-            <a href="#works" class="header__link">Works</a><!-- /.header__link -->
-          </li><!-- /.header__item -->
-          <li class="header__item">
-            <a href="#contact" class="header__link">Contact</a><!-- /.header__link -->
-          </li><!-- /.header__item -->
-        </ul><!-- /.header__list -->
-      </nav><!-- /.header__nav -->
+  <header class="Header">
+    <div class="Header_Inner">
+      <div class="Header_Logo"><a href="/" class="Header_Link">Cresta Design</a></div><!-- /.Header_Logo -->
+      <nav class="Header_Nav">
+        <ul class="Header_List">
+          <li class="Header_Item">
+            <a href="#concept" class="Header_Link">Concept</a><!-- /.Header_Link -->
+          </li><!-- /.Header_Item -->
+          <li class="Header_Item">
+            <a href="#service" class="Header_Link">Service</a><!-- /.Header_Link -->
+          </li><!-- /.Header_Item -->
+          <li class="Header_Item">
+            <a href="#works" class="Header_Link">Works</a><!-- /.Header_Link -->
+          </li><!-- /.Header_Item -->
+          <li class="Header_Item">
+            <a href="#contact" class="Header_Link">Contact</a><!-- /.Header_Link -->
+          </li><!-- /.Header_Item -->
+        </ul><!-- /.Header_List -->
+      </nav><!-- /.Header_Nav -->
       <Burger/>
-    </div><!-- /.header__inner -->
+    </div><!-- /.Header_Inner -->
   </header>
 </template>
 
@@ -33,7 +33,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .header {
+  .Header {
     font-style: italic;
     position: fixed;
     width: 100%;
@@ -41,47 +41,47 @@ export default {
     z-index: 10;
   }
 
-  .header__inner {
+  .Header_Inner {
     padding: 19px 120px;
     display: flex;
     justify-content: space-between;
   }
 
-  .header__logo {
+  .Header_Logo {
     font-size: 1.625rem;
     font-weight: bold;
     line-height: 1.38462;
     letter-spacing: 0.05em;
   }
 
-  .header__nav {
+  .Header_Nav {
     display: flex;
     align-items: center;
   }
 
-  .header__list {
+  .Header_List {
     display: flex;
     list-style: none;
   }
 
-  .header__item {
+  .Header_Item {
     margin-right: 30px;
     font-weight: bold;
     line-height: 1.375;
     letter-spacing: 0.05em;
   }
 
-  .header__item:last-child {
+  .Header_Item:last-child {
     margin-right: 0;
   }
 
   @media screen and (max-width: 414px) {
 
-    .header__inner {
+    .Header_Inner {
       padding: 19px 15px;
     }
 
-    .header__list {
+    .Header_List {
       display: none;
     }
 

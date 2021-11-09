@@ -1,9 +1,9 @@
 <template>
-  <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__text">©︎cresta.design all rights reserved</p><!-- /.footer__text -->
-    </div><!-- /.footer__inner -->
-  </footer><!-- /.footer -->
+  <footer class="Footer">
+    <div class="Footer_Inner">
+      <p class="Footer_Text">©︎cresta.design all rights reserved</p><!-- /.Footer_Text -->
+    </div><!-- /.Footer_Inner -->
+  </footer><!-- /.Footer -->
 </template>
 
 <script>
@@ -14,16 +14,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .footer {
+  .Footer {
 
   }
 
-  .footer__inner {
+  .Footer_Inner {
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
-  .footer__text {
+  .Footer_Text {
     text-align: center;
     font-size: 14px;
     font-weight: bold;

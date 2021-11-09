@@ -1,29 +1,29 @@
 <template>
-  <section class="service" id="service">
-    <div class="service__upper-inner">
-      <h2 class="service__title">Service</h2><!-- /.service__title -->
-    </div><!-- /.service__upper-inner -->
-    <div class="service__jumbotrons">
+  <section class="Service" id="service">
+    <div class="Service_UpperInner">
+      <h2 class="Service_Title">Service</h2><!-- /.Service_Title -->
+    </div><!-- /.Service_UpperInner -->
+    <div class="Service_Jumbotrons">
       <Jumbotron 
-        class="service__jumbotron"
+        class="Service_Jumbotron"
         text="Hearing"
         fileName="service-img01@2x.jpg">
       </Jumbotron>
       <Jumbotron
-        class="service__jumbotron"
+        class="Service_Jumbotron"
         text="Planning"
         fileName="service-img02@2x.jpg">
       </Jumbotron>
       <Jumbotron
-        class="service__jumbotron"
+        class="Service_Jumbotron"
         text="Direction"
         fileName="service-img03@2x.jpg">
       </Jumbotron>
-    </div><!-- /.service__jumbotrons -->
-    <div class="service__lower-inner">
-      <div class="service__background-text">Our service</div><!-- /.service__background-text -->
-    </div><!-- /.service__lower-inner -->
-  </section><!-- /.service -->
+    </div><!-- /.Service_Jumbotrons -->
+    <div class="Service_LowerInner">
+      <div class="Service_BackgroundText">Our service</div><!-- /.Service_BackgroundText -->
+    </div><!-- /.Service_LowerInner -->
+  </section><!-- /.Service -->
 </template>
 
 <script>
@@ -39,19 +39,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .service {
+  .Service {
 
   }
 
-  .service__upper-inner {
+  .Service_UpperInner {
     padding: 100px 120px 0;
   }
 
-  .service__lower-inner {
+  .Service_LowerInner {
     padding: 0 120px 70px;
   }
 
-  .service__title {
+  .Service_Title {
     position: relative;
     font-size: 3.75rem;
     font-weight: bold;
@@ -62,7 +62,7 @@ export default {
     letter-spacing: 0.1em;
   }
 
-  .service__title::after {
+  .Service_Title::after {
     content: '';
     display: inline-block;
     width: 200px;
@@ -73,18 +73,18 @@ export default {
     margin-left: 30px;
   }
 
-  .service__jumbotrons {
+  .Service_Jumbotrons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 70px;
   }
 
-  .service__jumbotron {
+  .Service_Jumbotron {
     width: 33.33333%;
   }
 
-  .service__background-text {
+  .Service_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
     color: rgba(23,23,23,.05);
@@ -95,46 +95,42 @@ export default {
 
   @media screen and (max-width: 1024px) {
 
-    .service__jumbotrons {
+    .Service_Jumbotrons {
       flex-direction: column;
       margin-bottom: 40px;
     }
 
-    .service__jumbotron {
+    .Service_Jumbotron {
       width: 100%;
       margin-right: auto;
       margin-left: auto;
       margin-bottom: 30px;
     }
 
-    .service__jumbotron:last-child {
+    .Service_Jumbotron:last-child {
       margin-bottom: 0;
     }
   }
 
   @media screen and (max-width: 414px) {
 
-    .service__upper-inner {
+    .Service_UpperInner {
       padding: 100px 15px 0;
     }
 
-    .service__lower-inner {
+    .Service_LowerInner {
       padding: 0 15px 64px;
     }
 
-    .service__title {
+    .Service_Title {
       font-size: 1.875rem;
     }
 
-    .service__title::after {
+    .Service_Title::after {
       width: 90px;
     }
 
-    .service__sub-title {
-      font-size: 1.25rem;
-    }
-
-    .service__background-text {
+    .Service_BackgroundText {
       font-size: 2.5rem;
     }
 

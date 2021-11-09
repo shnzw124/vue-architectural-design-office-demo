@@ -1,33 +1,33 @@
 <template>
-  <section class="works" id="works">
-    <div class="works__inner">
-      <h2 class="works__title">Works</h2><!-- /.works__title -->
-      <div class="works__cards">
+  <section class="Works" id="works">
+    <div class="Works_Inner">
+      <h2 class="Works_Title">Works</h2><!-- /.Works_Title -->
+      <div class="Works_Cards">
         <Card 
-          class="works__card"
+          class="Works_Card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。" 
           fileName="card-img01@2x.jpg"
           alt="オフィスの風景">
         </Card>
         <Card 
-          class="works__card"
+          class="Works_Card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にした。"
           fileName="card-img02@2x.jpg"
           alt="会議室の風景">
         </Card>
         <Card 
-          class="works__card"
+          class="Works_Card"
           text="新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。"
           fileName="card-img03@2x.jpg"
           alt="休憩室の風景">
         </Card>
-      </div><!-- /.works__cards -->
-      <div class="works__btn">
+      </div><!-- /.Works_Cards -->
+      <div class="Works_Btn">
         <Button text="View more"></Button>
-      </div><!-- /.works__btn -->
-      <div class="works__background-text">Our Works</div><!-- /.works__background-text -->
-    </div><!-- /.works__inner -->
-  </section><!-- /.works -->
+      </div><!-- /.Works_Btn -->
+      <div class="Works_BackgroundText">Our Works</div><!-- /.Works_BackgroundText -->
+    </div><!-- /.Works_Inner -->
+  </section><!-- /.Works -->
 </template>
 
 <script>
@@ -45,16 +45,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .works {
+  .Works {
     background-image: url("../assets/works-bgi@2x.jpg");
     background-size: cover;
   }
 
-  .works__inner {
+  .Works_Inner {
     padding: 104px 120px 70px;
   }
 
-  .works__title {
+  .Works_Title {
     position: relative;
     font-size: 3.75rem;
     font-weight: bold;
@@ -67,7 +67,7 @@ export default {
     letter-spacing: 0.1em;
   }
 
-  .works__title::after {
+  .Works_Title::after {
     content: '';
     display: inline-block;
     width: 200px;
@@ -78,7 +78,7 @@ export default {
     margin-left: 30px;
   }
 
-  .works__cards {
+  .Works_Cards {
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -86,11 +86,11 @@ export default {
     gap: 20px;
   }
 
-  .works__btn {
+  .Works_Btn {
     margin-bottom: 70px;
   }
 
-  .works__background-text {
+  .Works_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
     color: rgba(255,255,255,.05);
@@ -101,11 +101,11 @@ export default {
 
   @media screen and (max-width: 1080px) {
 
-    .works__cards {
+    .Works_Cards {
       flex-direction: column;
     }
 
-    .works__card {
+    .Works_Card {
       width: 100%;
       margin-right: auto;
       margin-left: auto;
@@ -115,21 +115,21 @@ export default {
 
   @media screen and (max-width: 414px) {
 
-    .works__inner {
+    .Works_Inner {
       padding: 100px 15px 40px;
     }
 
-    .works__title {
+    .Works_Title {
       font-size: 1.875rem;
       transform: translateX(-120px);
     }
 
-    .works__title::after {
+    .Works_Title::after {
       width: 90px;
       margin-left: 30px;
     }
 
-    .works__background-text {
+    .Works_BackgroundText {
       font-size: 2.5rem;
     }
   }

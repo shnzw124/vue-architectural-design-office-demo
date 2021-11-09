@@ -1,9 +1,9 @@
 <template>
-  <div class="jumbotron" :style="{ backgroundImage: 'url(' + imgPath + ')'}">
-    <div class="jumbotron__inner">
-      <p class="jumbotron__title">{{ text }}</p><!-- /.jumbotron__title -->
-    </div><!-- /.jumbotron__inner -->
-  </div><!-- /.jumbotron -->
+  <div class="Jumbotron" :style="{ backgroundImage: 'url(' + imgPath + ')'}">
+    <div class="Jumbotron_Inner">
+      <p class="Jumbotron_Title">{{ text }}</p><!-- /.Jumbotron_Title -->
+    </div><!-- /.Jumbotron_Inner -->
+  </div><!-- /.Jumbotron -->
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .jumbotron {
+  .Jumbotron {
     width: 100%;
     height: 20vw;
     max-height: 320px;
@@ -35,7 +35,7 @@ export default {
     align-content: center;
   }
 
-  .jumbotron__title {
+  .Jumbotron_Title {
     font-size: 40px;
     font-weight: bold;
     font-style: italic;
@@ -46,7 +46,7 @@ export default {
 
   @media screen and (max-width: 1024px) {
     
-    .jumbotron {
+    .Jumbotron {
       width: 100%;
       height: 50vw;
     }
@@ -55,13 +55,13 @@ export default {
 
   @media screen and (max-width: 414px) {
     
-    .jumbotron {
+    .Jumbotron {
       width: 100%;
       height: 70vw;
       max-height: 250px;
     }
 
-    .jumbotron__title {
+    .Jumbotron_Title {
       font-size: 1.25rem;
       font-weight: bold;
       font-style: italic;

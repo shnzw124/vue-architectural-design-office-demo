@@ -1,12 +1,12 @@
 <template>
-  <div class="card">
-    <figure class="card__img-wrapper">
-      <img :src="src" :alt="alt" class="card__img">
-    </figure><!-- /.card__img-wrapper -->
-    <div class="card__body">
-      <p class="card__text">{{ text }}</p><!-- /.card__text -->
-    </div><!-- /.card__body -->
-  </div><!-- /.card -->
+  <div class="Card">
+    <figure class="Card_ImgWrapper">
+      <img :src="src" :alt="alt" class="Card_Img">
+    </figure><!-- /.Card_ImgWrapper -->
+    <div class="Card_Body">
+      <p class="Card_Text">{{ text }}</p><!-- /.Card_Text -->
+    </div><!-- /.Card_Body -->
+  </div><!-- /.Card -->
 </template>
 
 <script>
@@ -31,19 +31,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .card {
+  .Card {
     background-color: #fff;
     box-shadow: 0 0 6px #000;
     width: 320px;
   }
 
-  .card__img-wrapper {
+  .Card_ImgWrapper {
     position: relative;
     padding-top: 59.880%;
     overflow: hidden;
   }
 
-  .card__img {
+  .Card_Img {
     position: absolute;
     top: 50%;
     left: 0;
@@ -51,20 +51,20 @@ export default {
     transform: translateY(-50%);
   }
 
-  .card__body {
+  .Card_Body {
     padding: 25px 20px;
   }
 
-  .card__text {
+  .Card_Text {
     color: #141414;
     text-align: left;
-    /* line-height: 1.875; */
-    /* letter-spacing: 0.05em; */
+    line-height: 1.875;
+    letter-spacing: 0.05em;
   }
 
   @media screen and (max-width: 1080px) {
 
-    .card {
+    .Card {
       max-width: 100%;
     }
 

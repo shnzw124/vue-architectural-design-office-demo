@@ -1,14 +1,14 @@
 <template>
-  <section class="contact" id="contact">
-    <div class="contact__inner">
-      <h2 class="contact__title">Contact</h2><!-- /.contact__title -->
-      <p class="contact__text">お気軽にご相談ください。</p><!-- /.contact__text -->
-      <div class="contact__btn">
+  <section class="Contact" id="contact">
+    <div class="Contact_Inner">
+      <h2 class="Contact_Title">Contact</h2><!-- /.Contact_Title -->
+      <p class="Contact_Text">お気軽にご相談ください。</p><!-- /.Contact_Text -->
+      <div class="Contact_Btn">
         <Button text="Contact" url="./contact"></Button>
-      </div><!-- /.contact__btn -->    
-      <div class="contact__background-text">Contact us</div><!-- /.contact__background-text -->
-    </div><!-- /.contact__inner -->
-  </section><!-- /.contact -->
+      </div><!-- /.Contact_Btn -->    
+      <div class="Contact_BackgroundText">Contact us</div><!-- /.Contact_BackgroundText -->
+    </div><!-- /.Contact_Inner -->
+  </section><!-- /.Contact -->
 </template>
 
 <script>
@@ -24,16 +24,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .contact {
+  .Contact {
     background-image: url("../assets/contact-bgi@2x.jpg");
     background-size: cover;
   }
 
-  .contact__inner {
+  .Contact_Inner {
     padding: 104px 120px 70px;
   }
 
-  .contact__title {
+  .Contact_Title {
     position: relative;
     font-size: 3.75rem;
     font-weight: bold;
@@ -46,7 +46,7 @@ export default {
     letter-spacing: 0.1em;
   }
 
-  .contact__title::after {
+  .Contact_Title::after {
     content: '';
     display: inline-block;
     width: 200px;
@@ -57,7 +57,7 @@ export default {
     margin-left: 30px;
   }
 
-  .contact__text {
+  .Contact_Text {
     font-size: 1.25rem;
     font-weight: bold;
     color: #fff;
@@ -66,11 +66,11 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .contact__btn {
+  .Contact_Btn {
     margin-bottom: 70px;
   }
 
-  .contact__background-text {
+  .Contact_BackgroundText {
     font-size: 5.625rem;
     font-weight: bold;
     color: rgba(255,255,255,.05);
@@ -81,24 +81,20 @@ export default {
 
   @media screen and (max-width: 414px) {
 
-    .contact__inner {
+    .Contact_Inner {
       padding: 100px 15px 40px;
     }
 
-    .contact__title {
+    .Contact_Title {
       font-size: 1.875rem;
       transform: translateX(-120px);
     }
 
-    .contact__title::after {
+    .Contact_Title::after {
       width: 90px;
     }
 
-    .contact__sub-title {
-      font-size: 1.25rem;
-    }
-
-    .contact__background-text {
+    .Contact_BackgroundText {
       font-size: 2.5rem;
     }
 

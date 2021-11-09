@@ -1,15 +1,15 @@
 <template>
-  <section class="fv">
-    <div class="fv__inner">
-      <h1 class="fv__title">Design for Smile.</h1><!-- /.fv__title -->
-      <p class="fv__sub-title">快適なオフィスを<br class="sp-only">デザインする</p><!-- /.fv__sub-title -->
-    </div><!-- /.fv__inner -->
-    <swiper class="fv__background" :options="swiperOption">
-      <swiper-slide class="fv__background-img01"></swiper-slide>
-      <swiper-slide class="fv__background-img02"></swiper-slide>
-      <swiper-slide class="fv__background-img03"></swiper-slide>
-    </swiper><!-- /.fv__background -->
-  </section><!-- /.fv -->  
+  <section class="Fv">
+    <div class="Fv_Inner">
+      <h1 class="Fv_Title">Design for Smile.</h1><!-- /.Fv_Title -->
+      <p class="Fv_SubTitle">快適なオフィスを<br class="_sp-only">デザインする</p><!-- /.Fv_SubTitle -->
+    </div><!-- /.Fv_Inner -->
+    <swiper class="Fv_Background" :options="swiperOption">
+      <swiper-slide class="Fv_BackgroundImg01"></swiper-slide>
+      <swiper-slide class="Fv_BackgroundImg02"></swiper-slide>
+      <swiper-slide class="Fv_BackgroundImg03"></swiper-slide>
+    </swiper><!-- /.Fv_Background -->
+  </section><!-- /.Fv -->  
 </template>
 
 <script>
@@ -34,12 +34,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .fv {
+  .Fv {
     position: relative;
     height: 752px;
   }
   
-  .fv__background {
+  .Fv_Background {
     position: absolute;
     top: 0;
     left: 0;
@@ -50,26 +50,26 @@ export default {
     z-index: -1;
   }
 
-  .fv__background-img01 {
+  .Fv_BackgroundImg01 {
     background-image: url("../assets/fv-bgi_01@2x.jpg");
   }
 
-  .fv__background-img02 {
+  .Fv_BackgroundImg02 {
     background-image: url("../assets/fv-bgi_02@2x.jpg");
   }
 
-  .fv__background-img03 {
+  .Fv_BackgroundImg03 {
     background-image: url("../assets/fv-bgi_03@2x.jpg");
   }
 
-  .fv__inner {
+  .Fv_Inner {
     position: absolute;
     top: 409px;
     left: 120px;
     background: transparent;
   }
 
-  .fv__title {
+  .Fv_Title {
     text-align: center;
     font-size: 4.375rem;
     font-weight: bold;
@@ -79,7 +79,7 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .fv__sub-title {
+  .Fv_SubTitle {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
@@ -88,39 +88,39 @@ export default {
     letter-spacing: 0.05em;
   }
 
-  .sp-only {
+  ._sp-only {
     display: none;
   }
 
   @media screen and (max-width: 414px) {
 
-    .fv {
+    .Fv {
       height: 599px;
     }
 
-    .fv__background {
+    .Fv_Background {
       height: 599px;
     }
 
-    .fv__inner {
+    .Fv_Inner {
       width: 100%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
 
-    .fv__title {
+    .Fv_Title {
       text-align: center;
       font-size: 2.3125rem;
       margin-bottom: 59px;
     }
 
-    .fv__sub-title {
+    .Fv_SubTitle {
       text-align: center;
       font-size: 1.875rem;
     }
 
-    .sp-only {
+    ._sp-only {
       display: block;
     }
 
